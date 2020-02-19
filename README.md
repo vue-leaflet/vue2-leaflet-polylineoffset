@@ -24,7 +24,9 @@ You can see the demo code in the file [example.vue](example.vue)
 
 ### on &lt;template&gt; add
 
-<l-polyline-offset :lat-lngs="latlngs" :offset="offset">
+```html
+<l-polyline-offset :lat-lngs="latlngs" :offset="offset" />
+```
 
 ### on &lt;script&gt; add
 
