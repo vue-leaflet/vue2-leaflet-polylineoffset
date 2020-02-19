@@ -22,13 +22,15 @@ You can see the demo code in the file [example.vue](example.vue)
 
 ## Usage
 
-### on &lt;template&gt; add
+on &lt;template&gt; add
 
 ```html
-<l-polyline-offset :lat-lngs="latlngs" :offset="offset" />
+<l-polyline-offset :lat-lngs="latlngs" :offset="offset" color="red" />
 ```
 
-### on &lt;script&gt; add
+(all `<l-polyline>` options are available)
+
+on &lt;script&gt; add
 
 #### option 1
 
