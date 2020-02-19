@@ -2,7 +2,7 @@
 
 # vue2-leaflet-polylineoffset
 
-This is a [RotatedMarker plugin](https://github.com/bbecquet/Leaflet.RotatedMarker) extension for [vue2-leaflet package](https://github.com/KoRiGaN/Vue2Leaflet)
+This is a [Polyline Offset plugin](https://github.com/bbecquet/Leaflet.PolylineOffset) extension for [vue2-leaflet package](https://github.com/KoRiGaN/Vue2Leaflet).
 
 ## Install
 
@@ -10,12 +10,9 @@ This is a [RotatedMarker plugin](https://github.com/bbecquet/Leaflet.RotatedMark
 
 ## Demo
 
-    git clone https://github.com/imudin/vue2-leaflet-rotatedmarker
-    cd vue2-leaflet-rotatedmarker
-    yarn
-    yarn example
+    git clone https://github.com/maratumba/vue2-leaflet-polylineoffset
 
-    # or alternatively using npm
+    # using npm
     npm install
     npm run example
 
@@ -27,6 +24,7 @@ You can see the demo code in the file [example.vue](example.vue)
 
 ### on &lt;template&gt; add
 
+<l-polyline-offset :lat-lngs="latlngs" :offset="offset">
 
 ### on &lt;script&gt; add
 
@@ -34,12 +32,12 @@ You can see the demo code in the file [example.vue](example.vue)
 
 In the same template file, at `<script>` part, this will make the component available only to the template in this file
 
-    import Vue2LeafletRotatedMarker from 'vue2-leaflet-rotatedmarker'
+    import LPolylineOffset from 'vue2-leaflet-polylineoffset'
     ...
     export default {
       ...
       components: {
-        'v-rotated-marker': Vue2LeafletRotatedMarker
+        LPolylineOffset,
         ...
       },
       ...
@@ -50,9 +48,9 @@ In the same template file, at `<script>` part, this will make the component avai
 At main Vue configuration, this will make the component available to all templates in your app
 
     import Vue from 'vue'
-    import Vue2LeafletRotatedMarker from 'vue2-leaflet-rotatedmarker'
+    import LPolylineOffset from 'vue2-leaflet-polylineoffset'
     ...
-    Vue.component('v-rotated-marker', Vue2LeafletRotatedMarker)
+    Vue.component('l-polyline-offset', LPolylineOffset)
 
 ## Develop and build
 
@@ -61,10 +59,10 @@ At main Vue configuration, this will make the component available to all templat
 
 ## Author
 
-[mudin](https://github.com/mudin/)
+[maratumba](https://github.com/maratumba/)
 
 
 ## License
 
 MIT
-rotated marker plugin extension for vue2-leaflet package
+polyline offset plugin extension for vue2-leaflet package

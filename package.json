@@ -1,6 +1,6 @@
 {
   "name": "vue2-leaflet-polylineoffset",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "polyline offset plugin extension for vue2-leaflet package",
   "main": "dist/Vue2LeafletPolylineOffset.js",
   "scripts": {

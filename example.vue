@@ -8,10 +8,9 @@
         <l-tile-layer ref="layerRef" :options="{maxNativeZoom:18,maxZoom:24}" :url="url"></l-tile-layer>
         <l-polyline-offset 
           :lat-lngs="[[40.836566,29.514314],[40.846566,29.524314]]"
-          color="red"
-          :opacity="0.4"
-          :weight="8"
-          :offset="4"
+          color="blue"
+          :weight="4"
+          :offset="8"
         />
         <l-polyline
           :lat-lngs="[[40.836566,29.514314],[40.846566,29.524314]]"
@@ -22,7 +21,7 @@
 </template>
 
 <script>
-import LPolylineOffset  from 'vue2-leaflet-polylineoffset';
+import LPolylineOffset  from './dist/Vue2LeafletPolylineOffset.js';
 import { LMap, LTileLayer, LPolyline } from 'vue2-leaflet';
 import { Icon } from 'leaflet';
 
