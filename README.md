@@ -34,16 +34,18 @@ You can see the demo code in the file [example.vue](example.vue)
 
 In the same template file, at `<script>` part, this will make the component available only to the template in this file
 
-    import LPolylineOffset from 'vue2-leaflet-polylineoffset'
+```js
+import LPolylineOffset from 'vue2-leaflet-polylineoffset'
+...
+export default {
     ...
-    export default {
-      ...
-      components: {
-        LPolylineOffset,
-        ...
-      },
-      ...
-    }
+    components: {
+    LPolylineOffset,
+    ...
+    },
+    ...
+}
+```
 
 #### option 2
 
