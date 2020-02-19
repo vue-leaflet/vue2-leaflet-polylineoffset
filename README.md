@@ -51,16 +51,18 @@ export default {
 
 At main Vue configuration, this will make the component available to all templates in your app
 
-    import Vue from 'vue'
-    import LPolylineOffset from 'vue2-leaflet-polylineoffset'
-    ...
-    Vue.component('l-polyline-offset', LPolylineOffset)
+```js
+import Vue from 'vue'
+import LPolylineOffset from 'vue2-leaflet-polylineoffset'
+...
+Vue.component('l-polyline-offset', LPolylineOffset)
+```
 
 ## Develop and build
-
-    npm install
-    npm run build
-
+```sh
+npm install
+npm run build
+```
 ## Author
 
 [maratumba](https://github.com/maratumba/)
