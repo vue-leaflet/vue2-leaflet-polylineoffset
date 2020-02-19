@@ -1,7 +1,7 @@
 {
-  "name": "vue2-leaflet-rotatedmarker",
+  "name": "vue2-leaflet-polylineoffset",
   "version": "1.0.9",
-  "description": "rotatedmarker plugin extension for vue2-leaflet package",
+  "description": "polyline offset plugin extension for vue2-leaflet package",
   "main": "dist/Vue2LeafletPolylineOffset.js",
   "scripts": {
     "build": "vue build Vue2LeafletPolylineOffset.vue --prod --lib --config build.config.js"
