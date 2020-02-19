@@ -43,7 +43,6 @@ export default {
     this.parentContainer = findRealParent(this.$parent);
     this.parentContainer.addLayer(this, !this.visible);
     this.mapObject.setOffset(this.offset);
-    console.log(this)
     this.$nextTick(() => {
       /**
        * Triggers when the component is ready
