@@ -69,6 +69,7 @@ npm run build
 
 [maratumba](https://github.com/maratumba/)
 
+Readme adapted from [polyline decorator](https://github.com/jperelli/vue2-leaflet-polylinedecorator) plugin by (jperelli)[https://github.com/jperelli]
 
 ## License
 
