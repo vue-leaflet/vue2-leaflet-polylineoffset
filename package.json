@@ -18,9 +18,9 @@
   "author": "maratumba (http://maratumba.github.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/imudin/vue2-leaflet-polylineoffset/issues"
+    "url": "https://github.com/maratumba/vue2-leaflet-polylineoffset/issues"
   },
-  "homepage": "https://github.com/imudin/vue2-leaflet-polylineoffset/#readme",
+  "homepage": "https://github.com/maratumba/vue2-leaflet-polylineoffset/#readme",
   "dependencies": {
     "leaflet": "^1.6.0",
     "leaflet-polylineoffset": "^1.1.1",
